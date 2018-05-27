@@ -19,3 +19,7 @@ img {
   height: 99%;
   width: auto;
 }
+
+#images {
+  margin: 0 auto;
+}
