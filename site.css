@@ -23,3 +23,7 @@ img {
 #images {
   margin: 0 auto;
 }
+
+#left-image, #right-image {
+  display: inline-block;
+}
