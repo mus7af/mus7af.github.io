@@ -1,6 +1,7 @@
 html, body, #images, #left-image, #right-image {
   box-sizing: border-box;
   height: 100%;
+  width: 100%;
   margin: 0;
 }
 
@@ -8,8 +9,8 @@ html, body, #images, #left-image, #right-image {
   box-sizing: inherit;
 }
 
-img {
-  height: 99%;
+.image {
+  height: 99.99%;
   width: auto;
 }
 
