@@ -1,4 +1,4 @@
-html, body, #images, #left-image, #right-image {
+html, body {
   box-sizing: border-box;
   height: 100%;
   margin: 0;
