@@ -6,17 +6,41 @@ html, body {
 
 * {
   box-sizing: inherit;
-}
-
-.image {
-  height: 99.5%;
-  width: auto;
+  border: 1px black solid;
 }
 
 #images {
   text-align: center;
 }
 
-#left-image, #right-image {
+.horizontal {
+  height: 100%;
+  width: auto;
+}
+
+.horizontal > div {
   display: inline-block;
+  height: 100%;
+  width: auto;
+}
+
+.horizontal > div > img {
+  height: 99.5%;
+  width: auto;
+}
+
+.vertical {
+  width: 100%;
+  height: auto;
+}
+
+.vertical > div {
+  display: inline-block;
+  width: 49.5%;
+  height: auto;
+}
+
+.vertical > div > img {
+  width: 100%;
+  height: auto;
 }
