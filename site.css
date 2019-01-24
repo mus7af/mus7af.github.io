@@ -6,7 +6,7 @@ html, body {
 
 * {
   box-sizing: inherit;
-  border: 1px black solid;
+  /*border: 1px black solid;*/
 }
 
 #images {
